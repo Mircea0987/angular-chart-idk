@@ -1,0 +1,14 @@
+table {
+    margin-left: 2%;
+    width: 50%;
+    position: absolute;
+    
+}
+@media screen and (max-width: 720px) {
+    table{
+        width: auto;
+        position:static;
+        display: block;
+        flex-direction: column;
+    }
+}
